@@ -1,15 +1,12 @@
 {
-  "name": "sienna",
+  "name": "acm-basilisk",
   "version": "1.0.0",
-  "description": "Sienna Template",
-  "author": "Pasquale Vitiello <pasqualevitiello@gmail.com>",
+  "description": "ACM website",
+  "author": "Patrick Tumbucon",
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/pasqualevitiello/sienna.git"
-  },
-  "bugs": {
-    "url": "https://bitbucket.org/pasqualevitiello/sienna/issues"
+    "url": "https://github.com/ptumb001/acm-basilisk.git"
   },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
@@ -49,6 +46,5 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "homepage": "https://bitbucket.org/pasqualevitiello/sienna#readme",
   "main": ".eslintrc.js"
 }
