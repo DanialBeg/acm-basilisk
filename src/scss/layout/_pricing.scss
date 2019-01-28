@@ -98,7 +98,8 @@
 .pricing-table-primary {
 
 	.pricing-table-inner {
-		background: #0093d0;
+        background: #0093d0;
+	    background-image: linear-gradient(200deg, #0093d0 5%, #005dab 45%);
 	}
 
 	.pricing-table-title {
@@ -117,13 +118,12 @@
 }
 
 .pricing-table-inner:hover {
-	box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 28px 40px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
 }
 
 .pricing-table-acm-winc {
     .pricing-table-inner {
-        background: #6f77e5;
-        background: #565171;
+	   background-image: linear-gradient(200deg, #575989 5%, #565171 45%);
     }
     
     .pricing-table-title {
