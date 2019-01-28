@@ -34,6 +34,12 @@
         @include anchor-aspect(header);
         line-height: 16px;
         padding: 8px 24px;
+        color: black;
+        z-index: 99;
+    }
+
+    a:not(.button):hover {
+        color: color(primary, 1);
     }
 }
 
