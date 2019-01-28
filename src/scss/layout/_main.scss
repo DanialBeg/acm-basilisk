@@ -17,11 +17,7 @@
     @include shadow;
 }
 
-.form-acm {
-    input, textarea {
-        padding: 3%;
-    }
-}
+
 
 main {
     flex: 1 0 auto;
@@ -31,6 +27,14 @@ main {
     position: relative; /* To always display inner elements above pseudo decorative stuff */
     padding-top: 48px;
     padding-bottom: 48px;
+}
+
+@include media('<small') {
+    .hero-icon {
+        i {
+            margin: 10%;
+        }
+    }
 }
 
 @include media( '>medium' ) {
