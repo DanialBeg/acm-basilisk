@@ -98,10 +98,35 @@
 .pricing-table-primary {
 
 	.pricing-table-inner {
-		background: color(primary, 1);
+		background: #0093d0;
 	}
 
 	.pricing-table-title {
+		color: color(typography, 1i);
+	}
+
+	.pricing-table-price-currency {
+		color: color(typography, 2i) !important;
+	}
+}
+
+.pricing-table-inner {
+    box-shadow: 0 7px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.pricing-table-inner:hover {
+	box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pricing-table-acm-winc {
+    .pricing-table-inner {
+        background: #6f77e5;
+        background: #565171;
+    }
+    
+    .pricing-table-title {
 		color: color(typography, 1i);
 	}
 
