@@ -74,7 +74,9 @@
 }
 
 .testimonial-footer {
-    align-self: flex-end;
+	align-self: flex-end;
+	z-index: 99;
+
 }
 
 .testimonial-name {
