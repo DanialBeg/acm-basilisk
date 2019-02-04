@@ -4,7 +4,8 @@
 }
 
 .header-sun {
-	position: absolute;
+    display: none;
+    position: absolute;
 	top: -88px;
 	right: -60px;
 }
@@ -14,6 +15,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.brand {
+    max-width: 100px;
 }
 
 .header-links {
